@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="students-table">
+        <h3 class="heading">Spisak studenata Fakulteta poslovne ekonomije u Bijeljini</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Grade</th>
+                    <th>Enrollment Date</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="form-wrapper">
+        
+            <form id="inputForm" class="add-student">
+                <h3>Dodajte novog studenta:</h3>
+                <label>Name: <input type="text" id="name" required /></label>
+                <label>Age: <input type="number" id="age" required /></label>
+                <label>Grade: <input type="text" id="grade" required /></label>
+                <label>Enrollment Date: <input type="date" id="enrollmentDate" required /></label>
+                <button type="submit">Sačuvaj</button>
+            </form>
+     
+       
+            <form id="updateForm" class="add-student">
+                <h3>Izmjenite podatke odabranog studenta:</h3>
+                <label>Name: <input type="text" id="nameUpdate" required /></label>
+                <label>Age: <input type="number" id="ageUpdate" required /></label>
+                <label>Grade: <input type="text" id="gradeUpdate" required /></label>
+                <label>Enrollment Date: <input type="date" id="enrollmentDateUpdate" required /></label>
+                <button type="submit">Sačuvaj izmjene</button>
+            </form> 
+        
+    </div>
+ 
+
+  
+</body>
+
+</html>

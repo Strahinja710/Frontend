@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.error-text {
+    color: red;
+}
+
+.success-text {
+    color: greenyellow;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.add-student{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid paleturquoise;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightyellow;
+    margin-top: 20px;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.heading{
+    background-color: lightyellow;
+    padding: 20px;
+    text-align: center;
+}

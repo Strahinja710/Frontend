@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Petar Petrović",
+      "age": 20,
+      "grade": 1,
+      "enrollmentDate": "2022-02-07"
+    },
+    {
+      "id": 2,
+      "name": "Marko Marković",
+      "age": 21,
+      "grade": 2,
+      "enrollmentDate": "2021-03-07"
+    },
+    {
+      "id": 3,
+      "name": "Ivana Ivanović",
+      "age": 23,
+      "grade": 4,
+      "enrollmentDate": "2019-01-07"
+    },
+    {
+      "id": 4,
+      "name": "Nevena Nevenić",
+      "age": 19,
+      "grade": 1,
+      "enrollmentDate": "2022-02-06"
+    },
+    {
+      "id": 5,
+      "name": "Danijela Maksimović",
+      "age": "25",
+      "grade": "5",
+      "enrollmentDate": "2018-02-07"
+    }
+  ]
+}
